@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Giỏ hàng của bạn</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- javaScript -->
+    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-xl-2 col-md-2 col-2">
+                <img class="logo-1" src="./images/PET.png" alt="PET.png">
+            </div>
+            <div class="col-xl-9 col-md-9 col-9">
+                <h1>Cửa hàng Thu Trân</h1>
+                <ul class="title-1">
+                    <li>
+                        Phục vụ Quý khách 24/7
+                    </li>
+                    <li>
+                        <i class="fa fa-home"></i> : 137E Nguyễn Chí Thanh, P4, Quận 5, Tp Hồ Chí Minh
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i> : admin@thutran.com - <span><i class="fa fa-phone"></i> :08 777
+                            6666</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- CONTAINER CONTACT -->
+    <div class="container-fluid">
+        <div class="button-1 col-xl-12 col-md-12 col-12">
+            <a class="btn-lienhe-1" href="http://127.0.0.1:5500/index.html">Đồng ý</a>
+            <a class="btn-lienhe-2" href="http://127.0.0.1:5500/index.html">Xóa đơn hàng</a>
+            <a class="btn-lienhe-2" href="http://127.0.0.1:5500/index.html">Mua tiếp</a>
+        </div>
+        <div class="title-lienhe col-xl-12 col-md-12 col-12 bg-dark border-dark">
+            <h1 class="text-white text-uppercase">giỏ hàng của bạn</h1>
+        </div>
+        <div class="row">
+            <div class="col-xl-7 col-md-7 col-6 border">
+                <table class="table table-striped table-inverse table-responsive-lg table-bordered">
+                    <thead class="thead-inverse bg-primary">
+                        <tr>
+                            <th class="col-2 col-md-2 col-xl-2">Hình</th>
+                            <th class="col-3 col-md-3 col-xl-3">Tên</th>
+                            <th class="col-2 col-md-2 col-xl-2">Số lượng</th>
+                            <th class="col-2 col-md-2 col-xl-2">Đơn giá bán</th>
+                            <th class="col-2 col-md-2 col-xl-2">Thành tiền</th>
+                            <th class="col-1 col-md-1 col-xl-1"> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">
+                                <img class="img-giohang" src="./images/ANDROID_3.png" alt="">
+                            </td>
+                            <td class="align-middle">Freetel ICE 2 8GB</td>
+                            <td class="align-middle text-right">
+                                <input type="number" value="1" min="1" class="w-50" id="soLuong">
+                            </td>
+                            <td class="align-middle text-right" id="donGia">9.240.000 <span
+                                    class="price"><sup>đ</sup></span></td>
+                            <td class="align-middle text-right" id="toTal">9.240.000 <span
+                                    class="price"><sup>đ</sup></span></td>
+                            <td class="align-middle text-center"><a href="#"><i
+                                        class="fa fa-trash-o text-danger"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <img class="img-giohang" src="./images/ANDROID_6.png" alt="">
+                            </td>
+                            <td class="align-middle">Telego Spot 8GB</td>
+                            <td class="align-middle text-right">
+                                <input type="number" value="1" min="1" class="w-50" id="soLuong">
+                            </td>
+                            <td class="align-middle text-right" id="donGia">7.920.000 <span
+                                    class="price"><sup>đ</sup></span></td>
+                            <td class="align-middle text-right">7.920.000 <span class="price"><sup>đ</sup></span></td>
+                            <td class="align-middle text-center"><a href="#"><i
+                                        class="fa fa-trash-o text-danger"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="col-12 col-md-12 col-xl-12 text-right text-danger"><b>Tổng thành
+                                    tiền:</b> 17.160.000
+                                <span class="price"><sup>đ</sup></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-xl-5 col-md-5 col-6 mt-1">
+                <div class="title-giaohang">
+                    <h2 class="text-primary text-uppercase">thông tin giao hàng</h2>
+                </div>
+                <div class="form-lienhe col-xl-12 col-md-12 col-12 border">
+                    <div class="form-group">
+                        <label class="font-weight-bold">Họ tên:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold">Email:</label>
+                        <input type="text" class="form-control" aria-describedby="helpId">
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold">Điện thoại:</label>
+                        <input type="text" class="form-control" aria-describedby="helpId">
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold">Địa chỉ giao hàng:</label>
+                        <input type="text" class="form-control" aria-describedby="helpId">
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold" for="date">Ngày giao hàng:</label>
+                        <input type="text" class="form-control datepicker" name="date" placeholder="dd/mm/yyyy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="container-fluid bg-dark">
+        <footer class="footer">
+            <p>
+                &copy; 2023 Designer Lập trình viên HTML5
+            </p>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script> src = "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin = "anonymous" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script>
+            $(document).ready(function () {
+                $('.datepicker').datepicker({
+                    format: 'dd/mm/yyyy'
+                });
+            });
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

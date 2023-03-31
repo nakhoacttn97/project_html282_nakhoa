@@ -1,0 +1,196 @@
+/* XỬ LÝ CHUNG */
+/*--------------------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------*/
+/* XỬ LÝ HEADER */
+/*--------------------------*/
+.header {
+    background-color: rgb(245, 239, 239)
+}
+
+.logo-1 {
+    width: 90%;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 145, 255);
+    padding-top: 10px;
+}
+
+.title-1 {
+    list-style: none;
+    text-align: center;
+}
+
+.title-1 li {
+    font-style: italic;
+    color: grey;
+}
+
+.title-1 li span {
+    color: rgb(0, 145, 255);
+}
+
+.title-1 li::before {
+    content: "-";
+    margin-right: 10px;
+}
+
+.icon-1 {
+    float: right;
+    border-radius: 5pt;
+    background-color: rgb(214, 58, 58);
+    width: 50px;
+    height: 40px;
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.icon-1 a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-1 a:hover {
+    background-color: rgba(63, 54, 54, 0.2);
+    color: white;
+}
+
+/* XỬ LÝ MENU */
+
+/* XỬ LÝ BTN */
+
+.btn-1,
+.btn-2 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-1 {
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5pt;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.btn-2 {
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5pt;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 15px;
+}
+
+/*--------------------------*/
+/* XỬ LÝ PHÂN LEFT & CENTER */
+/*--------------------------*/
+.carousel-item img {
+    width: 100%;
+}
+
+.title-mobiles {
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.main-card {
+    margin-bottom: 15px;
+}
+
+/*--------------------------*/
+/* XỬ LÝ FOOTER */
+/*--------------------------*/
+
+.footer {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+.price sup {
+    font-size: 0.6em;
+    /* giảm kích thước của chữ "đ" */
+    vertical-align: super;
+    /* đưa chữ "đ" lên trên */
+}
+
+/*--------------------------*/
+/*------XỬ LÝ FORM LIÊN HỆ HTML--------------------*/
+/*--------------------------*/
+.button-1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-lienhe-1 {
+    border-radius: 5pt;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-lienhe-2 {
+    border-radius: 5pt;
+    background-color: rgb(222, 45, 10);
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.btn-lienhe-1:hover,
+.btn-lienhe-2:hover {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(63, 54, 54, 0.2);
+}
+
+.title-lienhe {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.title-lienhe h1 {
+    text-transform: uppercase;
+}
+
+.map-lien-he {
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.form-group .form-control {
+    border-color: #007bff !important;
+    border-width: 0 0 2px 0;
+    box-shadow: none;
+}
+
+/*--------------------------*/
+/*-------XỬ LÝ GIỎ HÀNG-------------------*/
+/*--------------------------*/
+.img-giohang {
+    width: 70%;
+}
